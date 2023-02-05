@@ -1,0 +1,60 @@
+iframe {
+    display: block;
+    width: 50%;
+    height: 50vh;
+    border: 4px solid red;
+    margin: auto;
+    box-shadow: 0 0 25px 25px white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    height: 80vh;
+    width: 50%;
+        background-color: lightblue;
+    border: 5px solid white;
+}
+
+.item {
+    position: relative;
+    height: 20vh;
+    width: 30%;
+}
+
+
+.h-1 {
+    position: relative;
+    left: 100px;
+    top: 100px;
+    background-color: pink;
+}
+
+.h-2 {
+    background-color: red;
+}
+
+.h-3 {
+    position: fixed;
+    background-color: green;
+    transition: left 2s;
+}
+
+p{
+    color: white;
+    position: fixed;
+}
+
+.h-3:hover{
+    left: 100px;
+    transition: left 3s;
+}
